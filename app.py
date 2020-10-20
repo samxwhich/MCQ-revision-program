@@ -56,7 +56,7 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Yes, that's right!"
+    output = "Yes, that's right! good job"
     tracker =1
     score +=1
   elif answer == "b":
@@ -70,7 +70,7 @@ while tracker !=1:
     output = "Wrong. What's the difference between a molecule and an atom?"
     score -=1
   else:
-    output = "Please choose a, b, c or d only."
+    output = "Please choose a, b, c or d only, thank you."
 
   print()
   print(output)
@@ -120,4 +120,4 @@ while tracker !=1:
   print()
   
 print("End of quiz!")
- 
+  
